@@ -1,0 +1,100 @@
+body {
+    background-image: url(imgs/p2.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'HandDraw';
+    src: url(fonts/Delicious_Handrawn/DeliciousHandrawn-Regular.ttf);
+}
+
+main h1 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    background-color: rgba(3, 3, 3, 0.595);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'HandDraw';
+
+    
+}
+
+.contenedor {
+    width: 70%;
+    height: 320px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(3, 3, 3, 0.595);
+}
+
+.contenedor img {
+    width: 400px;
+    height: 250px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.texto {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+    padding-right: 30px;
+    color: white;
+    font-family: 'HandDraw';
+
+}
+
+.texto2 {
+    width: 70%;
+    height:240px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    background-color: rgba(3, 3, 3, 0.595);
+    color: white;
+    font-family: 'HandDraw';
+
+
+}
+
+.texto2 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.flechas {
+    display: flex;
+    height: 130px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    padding-top: 25px;
+
+}
+
+.flechas .flecha_Izq img {
+    height: 100%;
+    width: 200px;
+    margin-left: 230px;
+}
+
+.flechas .flecha_Der img {
+    height: 100%;
+    width: 200px;
+    
+}
+
+.flechas .espaciador {
+    height: 100%;
+    width: 50px;
+}
+
+
+

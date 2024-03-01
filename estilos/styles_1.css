@@ -1,0 +1,182 @@
+body {
+    background-image: url(imgs/6757291.jpg);
+    background-size: cover;
+}
+
+.contenedor {
+    height: 600px;
+    width: 70%;
+
+    background-color: transparent;
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'HandDraw';
+}
+
+@font-face {
+    font-family: 'HandDraw';
+    src: url(fonts/Delicious_Handrawn/DeliciousHandrawn-Regular.ttf);
+}
+
+
+
+.imagen {
+    height: 100%;
+    width: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.imagen img {
+    height: 90%;
+    width: 400px;
+    margin-top: 30px;
+}
+
+
+.parrafo1 p {
+    text-align: left; 
+    float: left;
+    font-size: 20px;
+    margin-left: 100px;
+    font-family: 'HandDraw';
+    font-size: 25px;
+}
+
+.parrafo2 p {
+    text-align: right; 
+    float: right;
+    font-size: 25px;
+    margin-right: 100px;
+    margin-top: 70px;
+    font-family: 'HandDraw';
+}
+
+.parrafo1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 450px;
+
+}
+
+.parrafo2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 450px;
+
+
+}
+
+.flechas {
+    display: flex;
+    height: 130px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    padding-top: 25px;
+
+}
+
+.flechas .flecha_Izq img {
+    height: 100%;
+    width: 200px;
+    margin-left: 230px;
+}
+
+.flechas .flecha_Der img {
+    height: 100%;
+    width: 200px;
+    
+}
+
+.flechas .espaciador {
+    height: 100%;
+    width: 50px;
+}
+
+                        /*Media Querry*/
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    body {
+        background-size: cover;
+    }
+
+    .contenedor {
+        background-color: transparent;
+        display: block;
+        height: 600px;
+    }
+
+    .parrafo1 {
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .parrafo1 p {
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    
+    .imagen {
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .imagen img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+
+    .parrafo2 {
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .parrafo2 p {
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .flechas {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flechas .flecha_Izq img {
+        margin-left: 0px;       
+    }
+
+    .flechas .flecha_Der {
+        margin-right: 500px;       
+    }
+    
+}
+
+
+
+
+
+
